@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet"href="style1.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator">
+    
+        <input type="text"id="display" >
+    
+   
+    <div class="buttons">
+        <input type="button" value="+"id="plus"onclick="appendToDisplay(' + ')">
+        <input type="button" value="-"id="minus"onclick="appendToDisplay('-')">
+        <input type="button" value="*"id="multiply"onclick="appendToDisplay('*')">
+        <input type="button" value="/"id="divide"onclick="appendToDisplay('/')">
+        <input type="button" value="1"id="a" onclick="appendToDisplay('1')">
+        <input type="button" value="2"id="b"onclick="appendToDisplay('2')">
+        <input type="button" value="3"id="c"onclick="appendToDisplay('3')">
+        <input type="button" value="4"id="d"onclick="appendToDisplay('4')">
+        <input type="button" value="5"id="e"onclick="appendToDisplay('5')">
+        <input type="button" value="6"id="f"onclick="appendToDisplay('6')">
+        <input type="button" value="7"id="g "onclick="appendToDisplay('7')">
+        <input type="button" value="8"id="h"onclick="appendToDisplay('8')">
+        <input type="button" value="9"id="i" onclick="appendToDisplay('9')">
+        <input type="button" value="0"id="j"onclick="appendToDisplay('0')">
+        <input type="button" value="AC"id="ac"onclick="clearDisplay()">
+        <input type="button" value="="id="equal"onclick="calculate()">
+
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
